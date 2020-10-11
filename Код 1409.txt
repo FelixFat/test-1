@@ -1,0 +1,15 @@
+using System;
+
+class number_1409
+{
+    public static void Main()
+    {
+        int G = 0, L = 0;
+        var M = Console.ReadLine().Split();
+        G = int.Parse(M[0]);
+        L = int.Parse(M[1]);
+
+        int SUM = G + L - 1, GG = SUM - G, LL = SUM - L;
+        Console.Write(GG + " "); Console.WriteLine(LL);
+    }
+}

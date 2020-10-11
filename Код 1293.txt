@@ -1,0 +1,16 @@
+using System;
+
+class number_1293
+{
+    public static void Main()
+    {
+        int N, A, B;
+        var M = Console.ReadLine().Split();
+        N = int.Parse(M[0]);
+        A = int.Parse(M[1]);
+        B = int.Parse(M[2]);
+
+        int S = 2*N*A*B;
+        Console.WriteLine(S);
+    }
+}
